@@ -1,0 +1,13 @@
+per leggere un file in input senza dover scrivere codice in c posso fare
+
+	media_seq.exe < input_media_seq\input02.txt
+	(nome file eseguibile) < (nome file di input)
+	
+se voglio usare la powershell (non all'esame) allora faccio:
+	
+	Get-Content .\input_media_seq\input04.txt | .\media_seq.exe
+	(
+		Get-Content -> come < nella cmd
+		file di input 
+		file eseguibile
+	)

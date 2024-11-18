@@ -1,0 +1,2 @@
+# non considero i file .exe (risultato dei file .c)
+*.exe
