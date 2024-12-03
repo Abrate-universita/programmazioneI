@@ -1,2 +1,5 @@
 # non considero i file .exe (risultato dei file .c)
 *.exe
+
+# non considero i file presenti nella cartella .vscode
+.vscode/
